@@ -1,0 +1,14 @@
+.borde{
+    margin: 20px auto;
+    width: 250px;
+    height: 400px;   
+    background: blue;
+    text-align: center;
+    padding: 15px;
+    border: 20px solid red;
+    border-image-source: url(marco.png); /* source:indica que queremos el borde-image alrededor de nuesro elemento*/
+    border-image-slice:40%;             /* corta la imagen que tenemos para borde*/
+    border-image-repeat:repeat round ; /*repeat:Repetir la imagen que tenemos como borde. round:Escala la imagen para que se ajuste.*/
+    border-image-width: 25px;   /*Ancho del border-image*/
+    border-image-outset: 9px ; /*indica cuantos px por fuera de nuestro elemento queremos el marco*/
+}

@@ -1,0 +1,90 @@
+
+
+
+body{
+font-family: Verdana;
+font-size: 16px;
+}
+
+.contact-form{
+    width:438px;
+    padding: 30px ;
+    margin: 50px auto 0;
+    border: 1px dashed black;
+    background: transparent;
+}
+
+h1{
+text-align: center;
+margin-bottom: 20px;
+font-size: 40px;
+}
+
+input{
+    width: 90%;
+    height: 40px;
+    padding: 0 20px;
+    line-height: 40px;
+    border: 1px solid #96989A;
+    font-size: 16px;
+    outline: none;
+}
+
+input:focus{
+    outline: 1px solid black;
+    background:#dcdee2e3;
+}
+
+label{
+    width: 100%;
+    display: block;
+    margin: 30px 0 10px 0;
+    font-weight: bold;
+}
+
+.disponibilidad{
+    margin: 0px;
+}
+.disponibilidad input{
+    width: auto;
+    height: auto;
+}
+.disponibilidad input:focus{
+    outline: 1px solid #000 ;
+}
+
+
+.motivo{
+    margin: 0px;
+}
+.motivo input{
+    width: auto;
+    height: auto;
+}
+.motivo input:focus{
+    outline: 1px solid #000;
+}
+
+
+#mensaje{
+    width: 100%;
+    height: 160px;
+    padding: 10px 10px;
+    line-height: 20px;
+    border: 1px solid gray;
+}
+
+#mensaje:focus{
+    outline: 1px solid black;
+    background:#dcdee2e3;
+}
+
+button{
+    width: 45%;
+    background: black;
+    color: white;
+    margin-top:50px;
+    padding: 20px 40px;
+    text-align: center;
+    border: none;
+}

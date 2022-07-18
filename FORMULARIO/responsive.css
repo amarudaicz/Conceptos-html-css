@@ -1,0 +1,44 @@
+
+/*ESCRITORIOS MUY GRANDES*/
+
+@media(min-width:1200px){
+    .contact-form{
+        width: 40%;
+    }
+    button{
+        width: 40%;
+    }
+}
+
+/*TABLETS EN HORIZONTAL Y ESCRITORIOS NORMALES*/
+
+@media(min-width:768px){
+    .contact-form{
+        width: 65%;
+    }
+    button{
+        width: 50%;
+    }
+}
+
+/*MOVILES EN HORIZONTAL O TABLETS EN VERTICAL*/
+
+@media(max-width:767px){
+    .contact-form{
+        width: 80%;
+    }
+    button{
+        width: 60% ;
+    }
+}
+
+/*MOVILES EN VERTICAL*/
+
+@media(max-width:480px){
+    .contact-form{
+        width: 90%;
+    }
+    button{
+        width: 75%;
+    }
+}

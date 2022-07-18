@@ -1,0 +1,24 @@
+*{
+    margin: 0px; <-- restablece las preferencias que vienen por defecto en los ediores.
+}
+
+.titulo1{
+    background: coral;
+    color: crimson;
+    padding:20px 40px 20px 40px <--padding=relleno. crea un espaciado con el background los 4 valores son: arriba, derecha, abajo, izquierda. si queremos un padding proporcional ponemos un solo valor y ese vale para todos los lados
+    margin:20px <--crea un margen entre nuestra caja y el resto del documento
+    width:250px; <--ancho de la caja
+    text-aling:center; <-- centra nuestro texto donde querramos  
+    border: 1px solid red; <-- crea un borde a nuestra caja los valores son ancho style color
+}
+
+.padding{
+    display: inline-block; <-- modifica a las etiquetas para que cambien de inline A block o, inline-block etc
+    color: red;
+    background: lightseagreen;
+    padding: 20px;
+    width: 250px;
+    border-radius: 5px; <-- hace que los bordes de nuestra caja sean redondeados
+    box-shadow: <-- crea una sombra a nuestra caja ir a generator de sombras.
+
+}

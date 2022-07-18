@@ -1,0 +1,6 @@
+.fondo-multiple p{
+width: 500px;
+height: 500px;
+border: 2px solid black;
+background: url(imagenes/New-balance-portafolio.jpg) top left / 200px no-repeat, url(imagenes/New-balance-portafolio.jpg) center / 200px no-repeat,         url(imagenes/New-balance-portafolio2.jpg) bottom right / 200px no-repeat ;
+}

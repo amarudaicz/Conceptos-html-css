@@ -1,0 +1,32 @@
+*{  
+    color:black;
+}
+
+
+#parrafoNum1 {
+    color: violet;
+}
+
+
+.titulo1{
+    color: seagreen;
+}
+
+
+p{
+    color:blueviolet;
+}
+
+
+h1{
+    color: blue;
+}
+
+.titulo.titulo3{
+    color: orange;
+}
+
+p[class]{
+    color: purple;
+    background: black;
+}

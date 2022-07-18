@@ -1,0 +1,16 @@
+#cuadrado{
+    width: 200px;
+    height: 200px;
+    background: lightcoral;
+    animation-name:mianimacion;
+    animation-duration: 4s;
+    position: relative;
+}
+
+@keyframes mianimacion {
+0%{background: lightcoral; left:0;top: 0px; }
+25%{background: crimson;left: 300px; top:0px;}
+50%{background: lightgreen;left: 300px; top:300px ;}
+75%{background: cyan;left: 0px; top: 300px;}
+100%{background:chocolate; left: 0px; top: -300px;}     
+}

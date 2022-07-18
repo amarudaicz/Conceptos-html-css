@@ -1,0 +1,80 @@
+<!--QUE ES CSS? ES EL LENGUAJE DE ESTILOS DE NUESTRA PAJINA WEB-->
+
+estructura:
+    selector{                           <!--EL SELECTOR ES LA PARTE QUE QUEREMOS MODIFICAR DE NUESTRO HTML. EJ:UN TITULO-->
+    propiedad:                               <!--LA PROPIEDAD ES LA CARACTERISTICA QUE QUEREMOS MODIFICAR/CREAR. EJ:UN COLOR-->
+    valor}                               <!--EL VALOR ES LA FINALIDAD QUE LE QUEREMOS DAR A LA PROPIEDAD. EJ:EL PROPIO COLOR(ROJO) -->
+
+
+
+
+
+
+    *{           * <-- selector universal(para todo el documento)
+     color: red;
+    }
+
+
+    #parrafoNum1{    # <-- selector de id
+    color: royalblue;
+    }
+
+
+    .header{         .<-- selector de class
+        coloe: red;
+    }
+
+
+    p{               p<-- selector de parrafos
+        color: brown;
+    }
+
+
+    h1{              h1<-- selector de titulos
+        color: royalblue;
+    }
+
+
+    .titulo1, .parrafo{   <-- selectores agrupados (para no tener una cantidad de css muy grande)
+        color: salmon;
+    }
+
+    
+    .titulo.titulo3{      <-- selectores multiples (para modificar solamente cierto texto)
+        color: orange;
+    }
+
+
+    .principal   <-- selectores decendientes .padre>.decendientes (ver html <main class="principal"> para entender )  
+        color: orangered;
+    }
+
+
+    .principal>.titulo{    <-- selector padre - hijo directo .padre>.hijo directo (ver htlml <footer class="Preguntas">)
+        color: orchid;
+    }
+
+
+    [class]{   <-- selector [class] modifica todos los que tengan atrubito class.
+        color: palegreen;
+        background: purple;
+    }
+
+    
+    a[class]{  <-- selector de class con una etiqueta especifica (a,p,h1) (en este casa la de etiqueta de enlaces)
+        color:purple;
+    }
+
+
+    .menu ~ li{  <-- selector hermano general, modifica todos los hermanos del hermano elejido
+         color: blue;     
+     }
+
+
+    .menu + li{  <-- selector hermano adyacente(el hermano siguiente) 
+         color: chartreuse;
+     }
+
+
+
+

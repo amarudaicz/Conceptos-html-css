@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+    <title>Formulario</title>
+</head>
+<body>
+    <form class="contact-form">
+        <h1>Formulario</h1>
+
+        
+            <label for="nombre">Nombre:</label>
+            <input type="text" name="nombre" id="nombre" placeholder="Introduci tu nombre" required>
+        
+
+        
+            <label for="apellido">Apellido:</label>
+            <input type="text" id="apellido" name="apellido" placeholder="Introduci tu Apellido" required>
+        
+        
+         
+            <label for="email">E Mail:</label>
+            <input type="email" id="email" name="email" placeholder="Introduci tu correo" required>
+        
+
+        
+            <label for="telefono">Telefono:</label>
+            <input type="text" id="telefono" name="numero" placeholder="Introduci tu numero" required>
+        
+
+        
+            <label for="motivo">Motivo de consulta:</label>
+            <label class="motivo"><input type="radio" name="Motivo" value="Pregunta">Pregunta</label>
+            <label class="motivo"><input type="radio" name="Motivo" value="Asesoramiento">Asesoramiento</label>
+    
+
+            <label for="disponibilidad">Disponibilidad horaria:</label>
+            <label class="disponibilidad"><input type="checkbox">14 A 18</label>
+            <label class="disponibilidad"><input type="checkbox">18 A 22</label>
+        
+            <label for="mensaje">Mensaje:</label>
+            <textarea id="mensaje" name="mensaje" placeholder="Introduci tu mensaje" maxlength="500" ></textarea>
+        
+
+        
+            <button type="submit"><b>Enviar</b></button> 
+        
+
+
+
+    </form>
+
+
+    
+
+
+
+
+
+
+
+
+
+</body>
+</html>
