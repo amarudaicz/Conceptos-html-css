@@ -1,0 +1,31 @@
+*{
+    padding: 0;
+    box-sizing: border-box;
+    margin: 0;
+}
+.contenedor{
+    width: 100vw;
+    height: 100vh;
+    background: darkcyan;
+}
+
+.logo{
+    font-size: 60px;
+    margin-left: 10px;
+    background: coral;
+    width: max-content;
+    margin: auto;
+    border-radius: 5px;
+}
+
+.principal{
+    width: max-content;
+    font-size:40px;
+    margin-left: 100px;
+    color: sandybrown;
+}
+
+.principal p{
+    color: black;
+    border:1px solid black;
+}

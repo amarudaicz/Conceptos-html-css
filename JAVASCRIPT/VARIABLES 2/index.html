@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+    <title>Document</title>
+</head>
+<body>
+
+    <div class="contenedor">
+        <div class="header">
+            <p class="logo"> Escribiendo documento con javascript</p>
+        </div>
+
+        <div class="contenido">
+            <div class="principal">
+
+                <h1>Jugando con las variables</h1>
+
+                <button>Press me</button>
+                <script>
+                    var nombre=prompt("Introduce tu nombre"); //La funcion promt es una funcion de entrada de datos porque permite introducir datos desde fuera hacia adentro y poder almacenarlos en una variable
+                    var apellido=prompt("introduce tu apellido");
+ 
+                    document.write("<p>"); //Abre un parrafo
+                    document.write("Bienvenido/a: " + nombre +" " + apellido); //Escribe los datos ingresados en el promt
+                    document.write("</p>"); //Cierra el parrafo
+
+                    var uno="hola ";
+                    var dos=" como andas?";
+                    alert(uno + nombre + " " + apellido + dos );
+
+                
+                    var button = document.querySelector('button');
+
+                    button.onclick = function() {
+                    var name = prompt('What is your name?');
+                    alert('Hello ' + name + ', nice to see you!');
+                    } 
+
+                </script>
+            
+            
+
+            
+            </div>
+
+        </div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    </div>
+
+
+    
+</body>
+</html>

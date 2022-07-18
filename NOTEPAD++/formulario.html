@@ -1,0 +1,107 @@
+<!DOCTYPE html> 
+<html> 
+<head> 
+<meta charset="utf-8"> 
+<title>Formulario</title> 
+<style> 
+.caja{ 
+    width:438px; 
+    margin:50px auto 0; 
+    border:1px dashed #000; 
+    padding:0 30px 30px; 
+    font-family: Verdana, Geneva, sans-serif; 
+} 
+label{ 
+    width:100%; 
+    display:block; 
+    margin-top:30px; 
+    margin-bottom:10px; 
+}
+input{ 
+    width:90%; 
+    height:40px; 
+    border:1px solid gray; 
+    line-height:40px; 
+    padding:0 20px; 
+    outline:none; 
+} 
+input:focus{ 
+    border:1px solid black; 
+    background:rgba(150,150,150,0.2); 	
+}
+.motivo{
+    margin:0px;
+}
+.motivo input{
+    width:auto;
+    height:auto;
+}
+.motivo input:focus{
+    outline:1px solid rgba(150,150,150,0.6);	
+}
+.disponibilidad{
+    margin:0px;
+}
+.disponibilidad input{
+    width:auto;
+    height:auto;
+}
+.disponibilidad input:focus{
+    outline:1px solid rgba(150,150,150,0.6);
+}
+/*
+Esta regla la quitamos
+input,textarea{ 
+    width:300px; 
+    height:40px; 
+    line-height:40px; 
+    padding:0 20px; 
+    font-family:Verdana, Geneva, sans-serif; 
+    font-size:16px; 
+    color:#000; 
+    outline:none; 
+    border:1px solid #000;
+} */
+textarea{ 
+	width:90%;/*agregamos el mismo width de los inputs (ver línea 21)*/ 
+	padding:20px;/*agregamos el mismo padding de los inputs, pero además un padding top y bottom, para que quede separado arrina y abajo el texto que se escriba (ver línea 25)*/ 
+	outline:none;/*quitamos el efecto visual que añaden los navegadores al enfocar los elementos, igual que hicimos con los inputs en la líne 26*/	
+    height:100px; 
+    display:block; 
+    margin-top:30px; 
+} 
+:focus{ 
+    background:rgba(150,150,150,0.2); 
+} 
+
+button{
+    margin-top:50px;
+    background:#000;
+    color:#fff;
+    border:none;
+    padding:20px 40px;
+}
+</style> 
+</head> 
+<body> 
+    <form class="caja"> 
+        <label for="nombre">Nombre:</label> 
+        <input type="text" id="nombre" name="nombre"> 
+        <label for="apellido">Apellido:</label> 
+        <input type="text" id="apellido" name="apellido">
+		<label for= "email"> Email:</label>
+		<input type= "text" id="email" name="email">
+		<label for="telefono"> Telefono: </label>
+		<input type="text" id="telefono" name="telefono">
+		 <label>Motivo de consulta:</label>
+		<label class="motivo"><input type="radio" name="motivo" value="Lugar para abonar">Lugar para abonar </label>
+		<label class="motivo"><input type="radio" name="motivo" value="Atencion al cliente">Atencion al cliente </label>
+        <label>Disponibilidad horaria:</label>
+        <label class="disponibilidad"><input type="checkbox"> 9 a 13 hs.</label>
+        <label class="disponibilidad"><input type="checkbox"> 15 a 19 hs.</label>
+		<label for="comentarios">Comentarios:</label>
+		<textarea></textarea>
+        <button>Enviar</button>
+    </form> 
+</body> 
+</html>

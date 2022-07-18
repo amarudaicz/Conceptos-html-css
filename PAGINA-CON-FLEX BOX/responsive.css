@@ -1,0 +1,16 @@
+@media screen and (max-width:800px){
+    .menu-navegacion{
+        flex-direction: column;
+        height: 100px;
+        justify-content: space-evenly;
+    }
+    .hero h1{
+        font-size: 36px;
+    }
+    .beneficio{
+        margin-bottom: 20px;
+    }
+    .contenedor-imagenes img{
+        width: 90%;
+    }
+}

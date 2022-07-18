@@ -1,0 +1,14 @@
+
+
+ 
+.ejemplo{
+    order: 0 ;  /*La propiedad CSS order especifica el orden utilizado para disponer los elementos en su contenedor flexible. Los elementos estarán dispuestos en orden ascendente según el valor de order. Los elementos con el mismo valor de order se dispondrán en el orden en el cual aparecen en el código fuente.*/ 
+
+    flex-basis: auto ;  /*flex-basis define el tamaño que, por defecto, va a tener un elemento antes de que se distribuya en el espacio restante.*/
+
+    flex-grow: 0 ;   /* Esto define la habilidad que tienen los flex items de crecer si fuese necesario. Con el valor 0, por defecto, ningún ítem crecerá excepto que cambiemos este valor.*/
+
+    flex-shrink: 1 ; /* Define la habilidad que tienen los flex items de decrecer en caso necesario. Por defecto, todos los flex items se van a ir haciendo más pequeños conforme se vaya haciendo más pequeño el container.*/
+
+    flex: grow shrink basis ; /* Se puede escribir las 3 propiedades con el codigo flex: 1°grow 2°shrink 3°basis ;
+}
