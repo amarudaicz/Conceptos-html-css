@@ -1,0 +1,357 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+
+body{
+    font-family:Tahoma, 'Segoe' Verdana, sans-serif ;
+    background: #000;
+
+}
+html, body{
+    height: 100%;
+}
+.container{
+    position: relative;
+    height: 100%;
+
+}
+
+.header{
+    position: relative;
+    height: 80px;
+    width: 100%;
+}
+
+.logo{
+    background: #fff;
+    width: 60px;
+    height: 60px;
+    position: absolute;
+    border-radius: 50%;
+    position: relative;
+    box-sizing: border-box;
+    top: 50%;
+    left: 30px;
+    transform: translate(0, -50%);
+}
+
+.logo span{
+    position: absolute;
+    font-size: 16px;
+    font-weight:bold ;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.menu_btn{
+    width:32px;
+    height:32px;
+    position:absolute;
+    border:none;
+    background:none;
+    cursor:pointer;
+    outline:none;
+    top:50%;
+    right:30px;
+    transform:translate(0,-50%);
+    transition:opacity .5s;
+}
+
+
+.menu_btn:hover,.menu_btn:focus{
+    opacity:.6;
+}
+.menu_btn img{
+    width:100%;
+    height:100%;
+}
+
+.hero{
+    width: 100%;
+    height: calc(100% - 80px);
+}
+
+.hero ul{
+    width: 100%;
+    height: 100%;
+    position: relative;
+}
+
+
+.img1,.img2,.img3,.img4{
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    left: 0;
+    top: 0;
+    transition: opacity 2s;
+    opacity: 0;
+}
+
+.img1{
+    background: url(../imagenes/img1.jpg) center center no-repeat;
+    background-size: cover;
+   
+}
+
+.img2{
+    background: url(../imagenes/img2.jpg) center center no-repeat;
+    background-size: cover;
+    
+}
+
+.img3{
+    background: url(../imagenes/img3.jpg) center center no-repeat;
+    background-size: cover;
+    
+}
+
+.img4{
+    background: url(../imagenes/img4.jpg) center center no-repeat;
+    background-size: cover;
+    
+}
+
+.renglon{
+    width:100%;
+    height:400px;
+    position:relative;
+    border-top:1px solid rgba(255,255,255,.3);
+    box-sizing:border-box;
+}
+.columna-izquierda,.columna-derecha{
+    width:50%;
+    height:100%;
+    box-sizing:border-box;
+    padding:30px;
+    float:left;
+}
+.clear{
+    clear:both;
+}
+
+.textos1 h2,.textos2 h2,.textos3 h2{
+    color:#fff;
+    margin-bottom:30px;
+    font-size:30px;
+    font-weight:bold;
+}
+.textos1 div,.textos2 div,.textos3 div{
+    color:#fff;
+    font-size:16px;
+    line-height:26px;
+}
+
+.price{
+    font-size: 20px;
+    margin-top: 10px;
+}
+
+.comprar button{
+    display: inline;
+}
+
+.foto1{
+    background: url(../imagenes/col1.jpg) center center no-repeat;
+    background-size:cover ;
+}
+
+.foto2{
+    background: url(../imagenes/col2.jpg) top no-repeat;
+    background-size: cover;
+}
+
+.foto3{
+    background: url(../imagenes/col3.jpg) center center  no-repeat;
+    background-size: cover;
+}
+
+.btn{
+    display:inline-block;
+    outline:none;
+    text-decoration:none;
+    line-height:50px;
+    color:#000;
+    background:#fff;
+    padding:0 40px;
+    border-radius:25px;
+    font-weight:bold;
+    margin:50px 0 0; 
+    transition:opacity .5s;
+}
+.btn:hover,.btn:focus{
+    opacity:.6;
+}
+
+.columna-izquierda.textos1,.columna-derecha.foto1{
+    float:right;
+}
+
+.columna-izquierda.textos3,.columna-derecha.foto3{
+    float:right;
+}
+
+.columna-izquierda.mapa iframe{
+    width:100%;
+    height:100%;
+}
+
+.contacto h2{
+
+    color: #fff;
+    font-size: 35px;
+    font-weight: bold;
+    margin-bottom: 30px;
+
+}
+
+.direccion{
+    color: #fff;
+    line-height: 30px;
+    font-size: 20px;
+}
+
+.redes{
+    height: 40px;
+    margin-top: 20px;
+}
+
+.redes a{
+    display:inline-block;
+    height:100%;
+    width:40px;
+    margin-right:10px;
+    text-decoration:none;
+    outline:none;
+    transition:opacity .5s;
+
+}
+.redes a:hover,.redes a:focus{
+    opacity:.6;
+}
+
+.fb{
+    background: url(/imagenes/fb.jpg) center center no-repeat;
+    background-size: cover;
+    border-radius: 5px;
+}
+
+.tw{
+    background: url(/imagenes/tw.jpg) center center no-repeat;
+    background-size: cover;
+    border-radius: 5px;
+}
+
+.ig{
+    background: url(/imagenes/ig.jpg) center center no-repeat;
+    background-size: cover;
+    border-radius: 5px;
+}
+
+.footer{
+    height:100px;
+    border-top:1px solid rgba(255,255,255,.3);
+    position:relative;
+}
+
+.copy{
+    font-size: 16px;
+    color: #fff;
+    text-align: center;
+    line-height: 100px;
+    margin: 0 auto;
+
+}
+
+.empty{
+    opacity:0;
+}
+
+#menu{
+    width:200px;
+    height:auto;
+    position:absolute; 
+    top:0px;
+    right:0px;
+    z-index:1000;
+    background:#fff;
+    display: none;
+}
+
+.close{
+    background:none;
+    border:none;
+    position:absolute;
+    left:4px;
+    top:0px;
+    width:24px;
+    height:24px;
+    z-index:10000;
+    outline:none;
+    cursor:pointer;
+}
+
+.close:hover,.close:focus{
+    opacity:.6;
+}
+
+#menu ul{
+    margin-top:30px;
+    list-style:none;
+}
+
+#menu a{
+    display:block;
+    text-decoration:none;
+    padding:5px 10px;
+    box-sizing:border-box;
+    font-size:16px;
+    color:#000;
+    outline:none;
+}
+
+#menu a:hover,#menu a:focus{
+    opacity:.6;
+}
+
+html{
+    scroll-behavior: smooth;
+}
+
+@media(max-width:1000px){
+    .renglon{
+        height:auto;
+    }
+    .columna-izquierda.textos1,.columna-izquierda.textos2,.columna-izquierda.textos3{
+        width:100%;
+        height:auto;
+        padding-bottom:60px;
+    }
+    .columna-derecha.foto1,.columna-derecha.foto2,.columna-derecha.foto3{
+        width:100%;
+        height:400px;
+    }
+    .columna-izquierda.mapa,.columna-derecha.datos-contacto{
+        width:100%;
+    }
+    .columna-izquierda.mapa{
+        padding-top:60px;
+        height: 500px;
+    }
+    .columna-derecha.datos-contacto{
+        text-align:center;
+        height:auto;
+        padding-bottom:80px;
+    }
+    .redes a{
+        margin:0 5px;
+    } 
+}
+
+@media(max-width:360px){
+    .copy{
+    font-size:12px; }
+}
+    

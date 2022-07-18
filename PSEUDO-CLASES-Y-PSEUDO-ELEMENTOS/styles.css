@@ -1,0 +1,78 @@
+.boton1{
+    background: red;
+    color:white;
+    font-size: 20px;
+    display: block;
+    margin: 20px auto;
+    width: 150px;
+    padding: 10px;
+    text-align: center;
+    text-decoration: none;
+}
+.boton1:hover{       /*cambia nuestro elemento cuando le pasamos el mouse por arriba, TIENE QUE IR PRIMERO EL HOVER*/ 
+    background: gray;
+    color: black;
+    border: 2px solid white;
+}
+.boton1:active{     /*cambia nuestro elemento cuando damos click, TIENE QUE IR SEGUNDO EL ACTIVE*/
+    background: blue;
+    color: white;
+}
+.boton{
+    background: red;
+    color:white;
+    font-size: 20px;
+    display: block;
+    margin: 20px auto;
+    width: 150px;
+    padding: 10px;
+    text-align: center;
+    text-decoration: none;
+}
+#numero1:target{    /*Selecciona el elemento al que apunta la URL activa (es decir, cuyo ID coincide con el identificador de fragmento de la URL activo).*/
+    background: black;
+    color: white;
+}
+#numero2:target{
+    background: rgb(255, 0, 0);
+    color: white;
+}
+#numero3:target{
+    background: rgb(21, 255, 0);
+    color: white;
+}
+.nombre{
+    display: block;
+    padding: 10px;
+}
+.nombre:focus{      /*Selecciona el elemento que tiene el foco.*/
+    background: khaki;
+}
+.email{
+    display: block;
+    padding: 10px;
+}
+.email:focus{
+    background: white;
+    outline-color: lawngreen; /*outline=borde*/
+}
+
+.lorem::selection{  /*cambia la parte del documento que fue seleccionada arrastrando el mouse*/
+    background: yellow;
+    color: white;
+}
+
+.lorem::first-letter{ /*Selecciona la primera letra del elemento.*/
+    font-size: 30px;
+    color: teal;
+}
+.lorem::first-line{   /*Selecciona la primera línea del elemento de contenido.*/
+    font-size: 25px;
+}
+
+
+.lorem::after{  /*Es usado normalmente para añadir contenido estético a un elemento, usando la propiedad content. ::before aplica igual pero antes del elemento*/
+    content: "golass";
+    background: rgb(21, 255, 0);
+    color: red;
+}

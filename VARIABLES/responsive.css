@@ -1,0 +1,28 @@
+@media(max-width:800px) {  /*menos de 800px y cambia a los valores*/
+    .seccion1{
+        width: 40%;
+    }
+    .div{
+        background-color: violet;
+        width: 15%;
+    }
+}
+@media (min-width: 800px){ /*mas de 800px y cambia los valores*/
+    .boton1{
+        background: yellowgreen;
+
+
+/*RESPONSIVE
+
+Escritorios muy grandes*/
+@media(min-width:1200px)  {   }
+
+/*Tablets en horizontal y escritorios normales*/
+@media(min-width:768px) {    }
+
+/*Moviles en horizontal o tablets en vertical*/
+@media (max-width:767px)  {   }
+
+/*Moviles en vertical*/
+
+@media (max-width:480px) {   }

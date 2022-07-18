@@ -1,0 +1,74 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+:root{  /*variables, se pueden crear variables para cualquier propiedad*/
+    --tamañodeletraparrafos: 22px;
+    --colorprimariotitulos: hsl(0, 0%, 0%);   
+    --colorfondobotones: rgba(255, 123, 0, 0.151);
+    --bordesbotones: 2px solid rgb(0, 17, 248);
+    --whidth-divisiones: 30%
+   }
+
+.seccion1{
+    display: flex;
+    width: 60%;
+    height: 800px;
+    margin: auto;
+    padding: 10px 10px 10px 10px;
+    background:#d40808;
+}
+
+.div{
+    display: inline-block;
+    padding: 10px;
+    width: var(--whidth-divisiones);
+    margin: 0 10px;
+    height: 40%;
+    text-align: center;
+    border: 2px solid black;
+}
+
+.titulo{
+    font-size: 80px;
+    padding-bottom: 20px;
+    color:var(--colorprimariotitulos)
+}
+
+.parrafo{
+    font-size: var(--tamañodeletraparrafos);
+}
+
+.boton1{
+    margin: auto;
+    display: block;
+    margin-top: 10px;
+    width: 50%;
+    height: auto;
+    padding: 10px;
+    background: var(--colorfondobotones);
+    border: var(--bordesbotones);
+    text-decoration: none;
+}
+
+.boton2{
+    display: inline-block;
+    margin-top: 10px;
+    width: 50%;
+    height: auto;
+    padding: 10px;
+    background: var(--colorfondobotones);
+    border: var(--bordesbotones);
+    text-decoration: none;
+}
+
+.boton3{
+    display: inline-block;
+    margin-top: 10px;
+    width: 50%;
+    height: auto;
+    padding: 10px;
+    background: var(--colorfondobotones);
+    border: var(--bordesbotones);
+    text-decoration: none;
+}

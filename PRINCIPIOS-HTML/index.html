@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <title>Document</title>
+</head>
+<body>
+    
+<!--esto es un comentario-->
+
+<!-- Los H1 son titulos, los h2, h3, subtitulos-->
+<h1>amaru</h1>
+<h2>daicz</h2>
+<h3>43081879</h3>
+<h4>ortiz de ocampo</h4>
+<h5>Esto es un titulo</h5>
+<h6>Esto es un titulo</h6>
+
+<!-- Los P son textos, parrafos-->
+<p>hola soy amaru en mi web aprendiendo</p>
+
+<!-- 
+modificadores de texto 
+<b></b>= texto encerrado en negrita
+<strong>= negrita semantica
+<i>= Cursiva
+<em>= Cursiva semantica
+<s>= Tachar palabras
+<small>= letra pequeña semantica
+<br>= salto de linea
+<span>= para agregar atributos particulares
+-->
+
+<!-- atributos particulares id y class  -->
+
+<p id="amaru"> amaru </p>
+<style> #amaru{background-color: chartreuse;} </style>
+<p class="amaru"> amaru </p>
+<style>.amaru{background: chocolate;} </style>
+
+<!-- enlaces=a -->
+<a href="contacto.html" target="_blank">Mi contacto</a>
+
+<!-- imagenes-->
+<a href="https://www.youtube.com" target="_blank">
+<img src="imagenes/calendario-mayo-2021.jpg" alt="calendario mayo 2021" title="calendario mayo 2021">
+</a>
+
+<!-- listas ordenadas -->
+<ol>
+    <li>elemento 1 
+        <ul>
+    <li>elemento 2</li>
+    <li>elemento 2</li>
+        </ul>
+    <li>elemento 2</li>
+    <li>elemento 3</li>
+</ol>
+
+<!-- listas desordenadas -->
+<ul>
+    <li>elemento 1
+        <ol>
+            <li>elemento 2</li>
+            <li>elemento 3</li>  
+        </ol>
+    </li>
+    <li>elemento 2</li>
+    <li>elemento 3</li>
+</ul>
+
+<!-- formularios -->
+<form>
+
+    <label>Tu nombre</label>
+    <br>
+    <input type="text" placeholder="Escribe tu nombre" required>
+    <br>
+    <input type="number"placeholder=123456 >
+    <br>
+    <input type="password" placeholder="**********"> 
+    <br>
+    <h1>Como nos has conocido</h1>
+    <input type="radio" id="email1" name="contacto">
+    <label for="email1">email</label>
+    <input type="radio" id="telefono1" name="contacto">
+    <label for="telefono1">telefono</label>
+    <br>
+    <h2>Que tenes?</h2>
+    <select> 
+        <option value="Email">email</option>
+        <option value="Telefono">telefono</option>
+    </select>
+    <br>
+    <fieldset>
+        <legend>formulario</legend>
+        <input type="text"placeholder="nombre">
+        <input type="email" placeholder="email">
+        <input type="date" placeholder="cumpleaños">
+    </fieldset>
+    <input type="submit" value="Enviar">
+</form> 
+
+
+</body> 
+</html>
